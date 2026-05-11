@@ -17,6 +17,7 @@ theme:
   name: material
   custom_dir: docs/theme
   logo: assets/logo.svg
+  favicon: assets/logo-dark.svg
   font:
     text: Rubik
   palette:
