@@ -15,6 +15,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Creates new action
   - Name: AddDoCallback
     ReturnType: nil
@@ -26,6 +27,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add do callback
   - Name: AddUndoCallback
     ReturnType: nil
@@ -37,6 +39,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add undo callback
   - Name: CommitAction
     ReturnType: nil
@@ -44,6 +47,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Commit the current action
 Events: []
 IsStatic: true

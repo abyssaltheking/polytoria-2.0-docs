@@ -6,14 +6,14 @@ Category: game
 BaseType: Instance
 Properties:
   - Name: Skybox
-    Type: SkyboxEnum
+    Type: SkyboxPreset
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Sets the skybox to one of the preset skyboxes.
   - Name: AmbientSource
-    Type: AmbientSourceEnum
+    Type: AmbientSource
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

@@ -39,6 +39,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns a table containing all the players currently in the game.
   - Name: GetPlayer
     ReturnType: Player
@@ -50,6 +51,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns the player with the specified username.
   - Name: GetPlayerByID
     ReturnType: Player
@@ -61,6 +63,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns the player with the specified user ID.
 Events:
   - Name: PlayerAdded

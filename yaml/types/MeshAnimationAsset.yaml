@@ -4,7 +4,7 @@ Category: assets
 BaseType: ResourceAsset
 Properties:
   - Name: AnimationType
-    Type: MeshAnimationTypeEnum
+    Type: MeshAnimationType
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

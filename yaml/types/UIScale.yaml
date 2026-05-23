@@ -1,0 +1,37 @@
+Name: UIScale
+Description: Missing Documentation
+Category: ""
+BaseType: null
+Properties:
+  - Name: Offset
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: Scale
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+Methods:
+  - Name: Compute
+    ReturnType: number
+    Parameters:
+      - Name: parentSize
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: false
+StaticAlias: null

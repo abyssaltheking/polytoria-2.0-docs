@@ -46,14 +46,14 @@ Properties:
     IsStatic: false
     Description: Determines whether the text should always be facing the camera.
   - Name: HorizontalAlignment
-    Type: TextHorizontalAlignmentEnum
+    Type: HorizontalAlignment
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Determines the horizontal alignment of the text.
   - Name: VerticalAlignment
-    Type: TextVerticalAlignmentEnum
+    Type: VerticalAlignment
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

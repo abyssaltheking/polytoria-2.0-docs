@@ -14,6 +14,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Filter a string
 Events: []
 IsStatic: true

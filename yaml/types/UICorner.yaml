@@ -1,0 +1,46 @@
+Name: UICorner
+Description: Missing Documentation
+Category: ""
+BaseType: Instance
+Properties:
+  - Name: CornerRadius
+    Type: UIScale
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TopLeftRadius
+    Type: UIScale
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TopRightRadius
+    Type: UIScale
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: BottomLeftRadius
+    Type: UIScale
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: BottomRightRadius
+    Type: UIScale
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+Methods: []
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: true
+StaticAlias: null

@@ -25,14 +25,14 @@ Properties:
     IsStatic: false
     Description: Determines the speed scale of this tween
   - Name: Direction
-    Type: TweenDirectionEnum
+    Type: TweenDirection
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Determines the tween direction.
   - Name: Transition
-    Type: TweenTransitionEnum
+    Type: TweenTransition
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -57,24 +57,26 @@ Methods:
     ReturnType: TweenObject
     Parameters:
       - Name: dir
-        Type: TweenDirectionEnum
+        Type: TweenDirection
         IsOptional: false
         DefaultValue: ""
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Set the direction of this tween. This function returns a
       `TweenObject` which means you can stack it with other functions.
   - Name: SetTrans
     ReturnType: TweenObject
     Parameters:
       - Name: trans
-        Type: TweenTransitionEnum
+        Type: TweenTransition
         IsOptional: false
         DefaultValue: ""
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Set the transition of this tween. This function returns a
       `TweenObject` which means you can stack it with other functions.
   - Name: TweenPosition
@@ -95,6 +97,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens the position of a Dynamic.
   - Name: TweenRotation
     ReturnType: nil
@@ -114,6 +117,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens the rotation of a Dynamic.
   - Name: TweenSize
     ReturnType: nil
@@ -133,6 +137,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens the size of a Dynamic.
   - Name: TweenColor
     ReturnType: nil
@@ -156,6 +161,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens a color between two specified values.
   - Name: TweenNumber
     ReturnType: nil
@@ -179,6 +185,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens a number between two specified values.
   - Name: TweenVector2
     ReturnType: nil
@@ -202,6 +209,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens a Vector2 between two specified values.
   - Name: TweenVector3
     ReturnType: nil
@@ -225,6 +233,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens a Vector3 between two specified values.
   - Name: TweenQuaternion
     ReturnType: nil
@@ -248,6 +257,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Tweens a Quaternion between two specified values.
   - Name: Play
     ReturnType: nil
@@ -255,6 +265,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Play this tween
   - Name: Pause
     ReturnType: nil
@@ -262,6 +273,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Pause this tween
   - Name: Stop
     ReturnType: nil
@@ -269,6 +281,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stop this tween
   - Name: Interval
     ReturnType: nil
@@ -280,6 +293,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Creates a delay in the tween.
   - Name: Chain
     ReturnType: TweenObject
@@ -287,6 +301,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Chain a tween if parallel is set to true
   - Name: Cancel
     ReturnType: nil
@@ -298,6 +313,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Cancel this tween
 Events:
   - Name: Finished

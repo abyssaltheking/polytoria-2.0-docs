@@ -21,6 +21,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Play animation
   - Name: PlayOneShotAnimation
     ReturnType: nil
@@ -32,6 +33,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Play one-shot animation
   - Name: StopAnimation
     ReturnType: nil
@@ -39,6 +41,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stop current animation
   - Name: StopOneShotAnimation
     ReturnType: nil
@@ -46,6 +49,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stop one-shot animation
 Events: []
 IsStatic: false

@@ -1,0 +1,54 @@
+Name: Weld
+Description: Missing Documentation
+Category: ""
+BaseType: Instance
+Properties:
+  - Name: Part0
+    Type: Instance
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: Part1
+    Type: Instance
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: C0
+    Type: Transform3D
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: C1
+    Type: Transform3D
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: Enabled
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+Methods:
+  - Name: Break
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: true
+StaticAlias: null

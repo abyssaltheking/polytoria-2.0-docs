@@ -4,7 +4,7 @@ Category: input
 BaseType: null
 Properties:
   - Name: KeyCode
-    Type: KeyCodeEnum
+    Type: KeyCode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -17,17 +17,19 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new button with this keycode.
   - Name: New
     ReturnType: InputButton
     Parameters:
       - Name: key
-        Type: KeyCodeEnum
+        Type: KeyCode
         IsOptional: false
         DefaultValue: ""
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new button with this keycode.
 Events: []
 IsStatic: false

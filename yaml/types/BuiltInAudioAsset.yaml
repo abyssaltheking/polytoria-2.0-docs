@@ -4,7 +4,7 @@ Category: assets
 BaseType: AudioAsset
 Properties:
   - Name: AudioPreset
-    Type: BuiltInAudioPresetEnum
+    Type: BuiltInAudioPreset
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

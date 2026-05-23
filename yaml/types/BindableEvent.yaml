@@ -15,6 +15,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Invoke this event with parameters
 Events:
   - Name: Invoked

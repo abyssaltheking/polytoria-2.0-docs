@@ -10,6 +10,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get all the teams
 Events: []
 IsStatic: true

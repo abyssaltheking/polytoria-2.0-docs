@@ -35,6 +35,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a chat message to all players.
   - Name: UnicastMessage
     ReturnType: nil
@@ -50,6 +51,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a chat message to a specific player.
 Events:
   - Name: NewChatMessage

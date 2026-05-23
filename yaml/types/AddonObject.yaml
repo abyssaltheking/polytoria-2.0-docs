@@ -30,12 +30,13 @@ Methods:
     ReturnType: nil
     Parameters:
       - Name: perms
-        Type: "{ AddonPermissionEnum }"
+        Type: "{ AddonPermission }"
         IsOptional: false
         DefaultValue: ""
     IsAsync: true
     IsObsolete: false
-    IsStatic: false
+    IsStatic: true
+    IsSemiStatic: false
     Description: Prompt the user to request for permissions
   - Name: CreateToolItem
     ReturnType: AddonToolItem
@@ -47,6 +48,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Create a new tool item with text.
 Events:
   - Name: CleanupReceived

@@ -42,6 +42,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sets the network authority of this object to the specified player.
   - Name: GetTouching
     ReturnType: "{ Physical }"
@@ -49,6 +50,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get all objects that's currently in contact with this object.
   - Name: MovePosition
     ReturnType: nil
@@ -60,6 +62,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Moves the part to the specified position while keeping physics in mind.
   - Name: MoveRotation
     ReturnType: nil
@@ -71,6 +74,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Rotates the part while keeping physics in mind.
   - Name: AddForce
     ReturnType: nil
@@ -80,12 +84,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add force to this physical
   - Name: AddTorque
     ReturnType: nil
@@ -95,12 +100,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add torque to this physical
   - Name: AddForceAtPosition
     ReturnType: nil
@@ -114,12 +120,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add force at position to this physical
   - Name: AddRelativeForce
     ReturnType: nil
@@ -129,12 +136,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add relative force to this physical
   - Name: AddRelativeTorque
     ReturnType: nil
@@ -144,12 +152,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add relative torque to this physical
 Events:
   - Name: Touched

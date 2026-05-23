@@ -41,6 +41,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets all descendants of this instance.
   - Name: FindChild
     ReturnType: Instance
@@ -52,6 +53,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Finds a child of this instance by name.
   - Name: WaitChild
     ReturnType: Instance
@@ -67,6 +69,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Wait for children to be added.
   - Name: FindChildByClass
     ReturnType: Instance
@@ -78,6 +81,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Finds a child of this instance by class name.
   - Name: FindChildWithTag
     ReturnType: Instance
@@ -89,6 +93,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Find first child with the specified tag
   - Name: GetChildrenWithTag
     ReturnType: "{ Instance }"
@@ -100,6 +105,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get children with the specified tag
   - Name: GetDescendantsWithTag
     ReturnType: "{ Instance }"
@@ -111,6 +117,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get descendants with the specified tag
   - Name: FindAncestorByClass
     ReturnType: Instance
@@ -122,6 +129,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Find ancestor by the specified class name
   - Name: FindChildByIndex
     ReturnType: Instance
@@ -133,6 +141,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Find child by its index (index for this function starts from 0)
   - Name: MoveChild
     ReturnType: nil
@@ -148,6 +157,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Move children to specified index (index for this function starts from 0)
   - Name: GetChildren
     ReturnType: "{ Instance }"
@@ -155,6 +165,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets all children of this instance.
   - Name: GetChildrenOfClass
     ReturnType: "{ Instance }"
@@ -166,6 +177,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets all children of this instance that are of the specified class.
   - Name: IsAncestorOf
     ReturnType: boolean
@@ -177,6 +189,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Determines if this instance is an ancestor of the given instance.
   - Name: IsDescendantOf
     ReturnType: boolean
@@ -188,6 +201,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Determines if this instance is a descendant of the given instance.
   - Name: IsDescendantOfClass
     ReturnType: boolean
@@ -199,6 +213,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Determines if this instance is a descendant of the given class.
   - Name: New
     ReturnType: Instance
@@ -214,6 +229,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new instance of the specified class.
   - Name: AddTag
     ReturnType: nil
@@ -225,6 +241,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds a tag to this instance.
   - Name: RemoveTag
     ReturnType: nil
@@ -236,6 +253,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Removes a tag from this instance.
   - Name: HasTag
     ReturnType: boolean
@@ -247,6 +265,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Checks if this instance has the specified tag.
   - Name: Reparent
     ReturnType: nil
@@ -258,6 +277,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Reparent this instance to another instance
   - Name: GetParent
     ReturnType: Instance
@@ -265,6 +285,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets the parent of this instance.
   - Name: SetParent
     ReturnType: nil
@@ -276,6 +297,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sets the parent of this instance.
 Events:
   - Name: ChildAdded

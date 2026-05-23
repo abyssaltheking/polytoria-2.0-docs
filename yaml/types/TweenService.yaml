@@ -10,6 +10,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: >-
       Creates a new tween object
           

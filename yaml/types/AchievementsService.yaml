@@ -34,6 +34,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Award achievement to the target user asynchronously.
   - Name: HasAchievementAsync
     ReturnType: boolean
@@ -49,6 +50,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Check if the target user has the achievement, asynchronously.
 Events:
   - Name: GotAchievement

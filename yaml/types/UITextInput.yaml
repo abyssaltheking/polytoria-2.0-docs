@@ -18,7 +18,7 @@ Properties:
     IsStatic: false
     Description: The color of the text.
   - Name: JustifyText
-    Type: TextHorizontalAlignmentEnum
+    Type: HorizontalAlignment
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -80,6 +80,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Forces the local player to focus on the text input.
 Events:
   - Name: Submitted

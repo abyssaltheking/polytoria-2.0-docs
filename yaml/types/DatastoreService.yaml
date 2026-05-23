@@ -15,6 +15,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Attempts to get a Datastore object from the Datastore service.
 Events: []
 IsStatic: true

@@ -82,6 +82,34 @@ Properties:
     IsStatic: false
     Description: Indicates the height of the screen.
 Methods:
+  - Name: StartGamepadVibration
+    ReturnType: nil
+    Parameters:
+      - Name: weakMagnitude
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: strongMagnitude
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: duration
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: StopGamepadVibration
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
   - Name: GetMouseWorldPosition
     ReturnType: Vector3
     Parameters:
@@ -92,6 +120,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns the 3D world-space position corresponding to the current
       mouse cursor location.
   - Name: GetVector2
@@ -104,6 +133,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns the current Vector2 value of the action.
   - Name: GetButton
     ReturnType: InputActionButton
@@ -115,6 +145,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns true if the specified button is being held down.
   - Name: GetAxis
     ReturnType: InputActionAxis
@@ -126,6 +157,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns the value of the specified axis.
   - Name: BindButton
     ReturnType: InputActionButton
@@ -137,6 +169,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Bind a new Button Input Action
   - Name: BindAxis
     ReturnType: InputActionAxis
@@ -148,6 +181,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Bind new Axis Input Action
   - Name: BindVector2
     ReturnType: InputActionVector2
@@ -159,6 +193,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Bind new Vector2 Input Action
 Events:
   - Name: GameFocused
@@ -179,8 +214,8 @@ Events:
     Arguments: ""
   - Name: KeyDown
     Parameters:
-      - Name: keyCodeEnum
-        Type: KeyCodeEnum
+      - Name: keyCode
+        Type: KeyCode
         IsOptional: false
         DefaultValue: null
       - Name: boolean
@@ -195,8 +230,8 @@ Events:
         Type: boolean
   - Name: KeyUp
     Parameters:
-      - Name: keyCodeEnum
-        Type: KeyCodeEnum
+      - Name: keyCode
+        Type: KeyCode
         IsOptional: false
         DefaultValue: null
       - Name: boolean
@@ -211,8 +246,8 @@ Events:
         Type: boolean
   - Name: AxisValueChanged
     Parameters:
-      - Name: keyCodeEnum
-        Type: KeyCodeEnum
+      - Name: keyCode
+        Type: KeyCode
         IsOptional: false
         DefaultValue: null
       - Name: number

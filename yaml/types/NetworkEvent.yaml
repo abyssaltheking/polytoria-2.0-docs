@@ -29,6 +29,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a message to the server.
   - Name: InvokeClient
     ReturnType: nil
@@ -44,6 +45,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a message to a specific client.
   - Name: InvokeClients
     ReturnType: nil
@@ -55,6 +57,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a message to all connected clients.
 Events:
   - Name: InvokedServer

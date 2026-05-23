@@ -4,13 +4,13 @@ Description: NewServerRequestData represents the request data for a new server
 Category: misc
 BaseType: null
 Properties:
-  - Name: PlacePath
+  - Name: WorldPath
     Type: string
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Target place path.
+    Description: Missing Documentation
   - Name: MaxPlayers
     Type: number
     IsAccessibleByScripts: true
@@ -25,6 +25,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new `NewServerRequestData`
 Events: []
 IsStatic: false

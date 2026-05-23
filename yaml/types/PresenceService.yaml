@@ -26,6 +26,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Reset the running timer for this activity.
 Events: []
 IsStatic: true

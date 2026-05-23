@@ -1,0 +1,8 @@
+Name: PlayerMovementMode
+InternalName: PlayerMovementModeEnum
+Options:
+  - Name: Default
+    Description: ""
+  - Name: Scripted
+    Description: ""
+Description: ""

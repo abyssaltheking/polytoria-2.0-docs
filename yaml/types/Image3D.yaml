@@ -53,7 +53,7 @@ Properties:
     IsStatic: false
     Description: Determines whether or not the Image3D should always face the camera.
   - Name: TextureFilter
-    Type: TextureFilterEnum
+    Type: TextureFilter
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

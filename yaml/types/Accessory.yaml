@@ -5,7 +5,7 @@ Category: world
 BaseType: Dynamic
 Properties:
   - Name: TargetAttachment
-    Type: CharacterAttachmentEnum
+    Type: CharacterAttachment
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

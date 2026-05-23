@@ -60,6 +60,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the bounciness of the entity.
+  - Name: LockRotation
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods: []
 Events: []
 IsStatic: false

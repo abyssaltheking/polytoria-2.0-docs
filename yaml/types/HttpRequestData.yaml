@@ -11,7 +11,7 @@ Properties:
     IsStatic: false
     Description: The target endpoint of the HTTP request.
   - Name: Method
-    Type: HttpRequestMethodEnum
+    Type: HttpRequestMethod
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -39,6 +39,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates and returns a new instance of `HttpRequestData`
 Events: []
 IsStatic: false

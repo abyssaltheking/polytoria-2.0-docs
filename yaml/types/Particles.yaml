@@ -19,7 +19,7 @@ Properties:
     IsStatic: false
     Description: The image used for the particles.
   - Name: TextureFilter
-    Type: TextureFilterEnum
+    Type: TextureFilter
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -103,7 +103,7 @@ Properties:
     IsStatic: false
     Description: Determine the hue variation
   - Name: BlendMode
-    Type: BlendModeEnum
+    Type: BlendMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -117,7 +117,7 @@ Properties:
     IsStatic: false
     Description: Determines whether the particles are shaded.
   - Name: EmissionShape
-    Type: ParticleEmissionShapeEnum
+    Type: ParticleEmissionShape
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -131,14 +131,14 @@ Properties:
     IsStatic: false
     Description: Determines the emission shape's scale
   - Name: SimulationSpace
-    Type: ParticleSimulationSpaceEnum
+    Type: ParticleSimulationSpace
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Whether the particles are simulated in world or local space.
   - Name: Orientation
-    Type: ParticleOrientationEnum
+    Type: ParticleOrientation
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -151,6 +151,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Starts playing the particle system.
   - Name: Stop
     ReturnType: nil
@@ -158,6 +159,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stops playing the particle system.
   - Name: Emit
     ReturnType: nil
@@ -169,6 +171,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Emits a specified number of particles immediately.
 Events: []
 IsStatic: false

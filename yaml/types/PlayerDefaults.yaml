@@ -46,6 +46,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The default chat color of the player.
+  - Name: ChatColorsEnabled
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: CanMove
     Type: boolean
     IsAccessibleByScripts: true
@@ -126,7 +133,7 @@ Properties:
     Description: Determines whether the player's equippable appearance tool should
       be loaded.
   - Name: MovementMode
-    Type: PlayerMovementModeEnum
+    Type: PlayerMovementMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -139,6 +146,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Resets the specified player back to their default values.
 Events: []
 IsStatic: true

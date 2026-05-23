@@ -32,14 +32,14 @@ Properties:
     IsStatic: false
     Description: The color of the text outline.
   - Name: HorizontalAlignment
-    Type: TextHorizontalAlignmentEnum
+    Type: HorizontalAlignment
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Determines the horizontal alignment of the text.
   - Name: VerticalAlignment
-    Type: TextVerticalAlignmentEnum
+    Type: VerticalAlignment
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -52,6 +52,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The font size of the text.
+  - Name: AutoSize
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: UseRichText
     Type: boolean
     IsAccessibleByScripts: true
@@ -67,7 +74,7 @@ Properties:
     IsStatic: false
     Description: The font asset used for the text.
   - Name: TextTrimming
-    Type: TextTrimmingEnum
+    Type: TextTrimming
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

@@ -14,6 +14,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Connect a function to this signal
   - Name: Disconnect
     ReturnType: nil
@@ -25,6 +26,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Disconnect a function from this signal
   - Name: Wait
     ReturnType: any
@@ -32,6 +34,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Wait until this signal's emitted
   - Name: Once
     ReturnType: nil
@@ -43,6 +46,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Listen to this signal only once
 Events: []
 IsStatic: false

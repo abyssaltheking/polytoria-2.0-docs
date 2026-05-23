@@ -1,53 +1,46 @@
-Name: Light
-Description: Light is an abstract base class for all light objects in the world.
-Category: misc
-BaseType: Dynamic
+Name: ShadowLayer
+Description: Missing Documentation
+Category: ""
+BaseType: null
 Properties:
-  - Name: Enabled
-    Type: boolean
-    IsAccessibleByScripts: true
-    IsReadOnly: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
   - Name: Color
     Type: Color
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Sets the color of the light.
-  - Name: Brightness
-    Type: number
+    Description: Missing Documentation
+  - Name: Offset
+    Type: Vector2
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Sets the brightness of the light.
-  - Name: LightSize
+    Description: Missing Documentation
+  - Name: Radius
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Missing Documentation
-  - Name: Specular
+  - Name: Spread
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Sets the specular intensity of the light.
-  - Name: Shadows
-    Type: boolean
+    Description: Missing Documentation
+  - Name: BlendMode
+    Type: ShadowBlendMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Enables or disables shadows cast by the light.
+    Description: Missing Documentation
 Methods: []
 Events: []
 IsStatic: false
-IsAbstract: true
+IsAbstract: false
 IsInstantiable: false
 StaticAlias: null

@@ -5,7 +5,7 @@ Category: addons
 BaseType: null
 Properties:
   - Name: ToolMode
-    Type: ToolModeEnum
+    Type: CreatorToolMode
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
@@ -19,7 +19,7 @@ Properties:
     IsStatic: false
     Description: Returns the target part color
   - Name: TargetPartMaterial
-    Type: PartMaterialEnum
+    Type: PartMaterial
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false

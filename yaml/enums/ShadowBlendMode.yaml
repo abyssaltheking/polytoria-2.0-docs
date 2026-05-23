@@ -1,0 +1,10 @@
+Name: ShadowBlendMode
+InternalName: ShadowBlendMode
+Options:
+  - Name: Normal
+    Description: ""
+  - Name: Add
+    Description: ""
+  - Name: Subtract
+    Description: ""
+Description: ""

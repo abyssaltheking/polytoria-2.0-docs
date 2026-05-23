@@ -50,6 +50,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Take a photo at dynamic
   - Name: TakePhotoAt
     ReturnType: nil
@@ -73,6 +74,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Take photo at `pos` for position and `rot` for rotation, optional
       `photoSize` defines the size, and optional UI `overlay` can be passed to
       include it in the result photo.

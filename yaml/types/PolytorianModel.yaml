@@ -93,6 +93,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Start ragdoll
   - Name: StopRagdoll
     ReturnType: nil
@@ -100,17 +101,19 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stop ragdoll
   - Name: GetAttachment
     ReturnType: Dynamic
     Parameters:
       - Name: attachmentEnum
-        Type: CharacterAttachmentEnum
+        Type: CharacterAttachment
         IsOptional: false
         DefaultValue: ""
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get an attachment from this character.
   - Name: LoadAppearance
     ReturnType: nil
@@ -126,6 +129,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Load an appearance.
   - Name: ClearAppearance
     ReturnType: nil
@@ -133,6 +137,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Clear current appearance.
 Events:
   - Name: RagdollStarted

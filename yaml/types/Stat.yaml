@@ -18,6 +18,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns the display name of the stat. If DisplayName is specified,
       it returns DisplayName; otherwise, it returns Name.
   - Name: Set
@@ -34,6 +35,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Set the value stat of player to string
   - Name: Set
     ReturnType: nil
@@ -49,6 +51,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Set the value stat of player to string
   - Name: Get
     ReturnType: any
@@ -60,6 +63,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get the value stat of player
   - Name: GetTotalForTeam
     ReturnType: number
@@ -71,6 +75,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get the total value for team
   - Name: GetDisplayValue
     ReturnType: string
@@ -82,6 +87,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets the display value for a player. If the value is a number, it
       is automatically converted to K/M/S format (e.g., 1K+, 12.3K+).
 Events: []

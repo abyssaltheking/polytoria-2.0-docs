@@ -19,6 +19,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds a string value to the message with the specified key.
   - Name: AddInt
     ReturnType: nil
@@ -34,6 +35,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds an integer value to the message with the specified key.
   - Name: AddBool
     ReturnType: nil
@@ -49,6 +51,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds a boolean value to the message with the specified key.
   - Name: AddNumber
     ReturnType: nil
@@ -64,6 +67,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds a number value to the message with the specified key.
   - Name: AddVector2
     ReturnType: nil
@@ -79,6 +83,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds a Vector2 value to the message with the specified key.
   - Name: AddVector3
     ReturnType: nil
@@ -94,6 +99,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds a Vector3 value to the message with the specified key.
   - Name: AddColor
     ReturnType: nil
@@ -109,6 +115,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds a Color value to the message with the specified key.
   - Name: AddInstance
     ReturnType: nil
@@ -124,6 +131,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds an Instance value to the message with the specified key.
   - Name: AddBuffer
     ReturnType: nil
@@ -139,6 +147,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Adds an Buffer value to the message with the specified key.
   - Name: GetString
     ReturnType: string
@@ -150,6 +159,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets a string value from the message with the specified key.
   - Name: GetInt
     ReturnType: number
@@ -161,6 +171,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets an integer value from the message with the specified key.
   - Name: GetNumber
     ReturnType: number
@@ -172,6 +183,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets a number value from the message with the specified key.
   - Name: GetBool
     ReturnType: boolean
@@ -183,6 +195,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets a boolean value from the message with the specified key.
   - Name: GetVector2
     ReturnType: Vector2
@@ -194,6 +207,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets a Vector2 value from the message with the specified key.
   - Name: GetVector3
     ReturnType: Vector3
@@ -205,6 +219,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets a Vector3 value from the message with the specified key.
   - Name: GetColor
     ReturnType: Color
@@ -216,6 +231,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets a Color value from the message with the specified key.
   - Name: GetInstance
     ReturnType: Instance
@@ -227,6 +243,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets an Instance value from the message with the specified key.
   - Name: GetBuffer
     ReturnType: buffer
@@ -238,6 +255,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets an Buffer value from the message with the specified key.
   - Name: New
     ReturnType: NetMessage
@@ -245,6 +263,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new NetMessage instance.
 Events: []
 IsStatic: false

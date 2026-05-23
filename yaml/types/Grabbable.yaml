@@ -33,7 +33,7 @@ Properties:
     IsStatic: false
     Description: Determines if dragging this object should affect physics.
   - Name: PermissionMode
-    Type: GrabbablePermissionModeEnum
+    Type: GrabbablePermissionMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

@@ -52,6 +52,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new Bounds object with the specified position and size.
   - Name: New
     ReturnType: Bounds
@@ -67,6 +68,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new Bounds object with the specified position and size.
   - Name: ClosestPoint
     ReturnType: Vector3
@@ -82,6 +84,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Calculates the closest point on the bounds to the specified point.
   - Name: Contains
     ReturnType: boolean
@@ -97,6 +100,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns whether the bounds contain the specified point.
   - Name: Encapsulate
     ReturnType: Bounds
@@ -112,6 +116,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Expands the bounds by the specified amount.
   - Name: Expand
     ReturnType: Bounds
@@ -127,6 +132,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Expands the bounds by the specified amount.
   - Name: Intersects
     ReturnType: boolean
@@ -142,6 +148,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Determines whether the bounds intersect with another bounds.
   - Name: SetMinMax
     ReturnType: Bounds
@@ -161,6 +168,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Sets the minimum and maximum points of the bounds.
   - Name: Distance
     ReturnType: number
@@ -176,6 +184,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Calculates the distance from the bounds to the specified point.
   - Name: SqrDistance
     ReturnType: number
@@ -191,6 +200,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Calculates the squared distance from the bounds to the specified point.
 Events: []
 IsStatic: false
