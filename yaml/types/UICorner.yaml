@@ -1,5 +1,5 @@
 Name: UICorner
-Description: Missing Documentation
+Description: UICorner modifies the parent UI element to add rounded corners.
 Category: ui
 BaseType: Instance
 Properties:
@@ -9,35 +9,35 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Corner radius. When set, all specific corner radiuses are updated.
   - Name: TopLeftRadius
     Type: UIScale
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Top left corner radius.
   - Name: TopRightRadius
     Type: UIScale
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Top right corner radius.
   - Name: BottomLeftRadius
     Type: UIScale
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Bottom left corner radius.
   - Name: BottomRightRadius
     Type: UIScale
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Bottom right corner radius.
 Methods: []
 Events: []
 IsStatic: false

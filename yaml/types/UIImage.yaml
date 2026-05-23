@@ -37,14 +37,14 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if the image is flipped horizontally.
   - Name: FlipVertical
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if the image is flipped vertically.
   - Name: Loading
     Type: boolean
     IsAccessibleByScripts: true

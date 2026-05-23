@@ -1,5 +1,5 @@
 Name: UIScale
-Description: Missing Documentation
+Description: UIScale is a measurement made from an offset in pixels and a scale based off it's size.
 Category: ui
 BaseType: null
 Properties:
@@ -9,14 +9,14 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: The offset in pixels.
   - Name: Scale
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: The scale relative to the parent size.
 Methods:
   - Name: Compute
     ReturnType: number

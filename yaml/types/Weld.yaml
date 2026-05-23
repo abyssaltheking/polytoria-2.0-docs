@@ -1,5 +1,5 @@
 Name: Weld
-Description: Missing Documentation
+Description: Welds represent joins between two physics objects.
 Category: physics
 BaseType: Instance
 Properties:
@@ -9,14 +9,14 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: First physics object in the weld.
   - Name: Part1
     Type: Instance
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Second physics object in the weld.
   - Name: C0
     Type: Transform3D
     IsAccessibleByScripts: true
@@ -37,7 +37,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines whether the weld is enabled.
 Methods:
   - Name: Break
     ReturnType: nil
@@ -46,7 +46,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Fires when the weld is broken.
 Events: []
 IsStatic: false
 IsAbstract: false
