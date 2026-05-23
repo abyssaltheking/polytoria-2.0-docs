@@ -1,6 +1,6 @@
 Name: ShadowLayer
 Description: Missing Documentation
-Category: ""
+Category: misc
 BaseType: null
 Properties:
   - Name: Color

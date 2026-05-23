@@ -1,6 +1,6 @@
 Name: UIShadow
 Description: Missing Documentation
-Category: ""
+Category: ui
 BaseType: Instance
 Properties:
   - Name: Layers

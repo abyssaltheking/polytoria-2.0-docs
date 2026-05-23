@@ -1,6 +1,6 @@
 Name: UICorner
 Description: Missing Documentation
-Category: ""
+Category: ui
 BaseType: Instance
 Properties:
   - Name: CornerRadius

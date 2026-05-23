@@ -1,6 +1,6 @@
 Name: Weld
 Description: Missing Documentation
-Category: ""
+Category: physics
 BaseType: Instance
 Properties:
   - Name: Part0

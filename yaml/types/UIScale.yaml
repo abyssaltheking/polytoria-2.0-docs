@@ -1,6 +1,6 @@
 Name: UIScale
 Description: Missing Documentation
-Category: ""
+Category: ui
 BaseType: null
 Properties:
   - Name: Offset
