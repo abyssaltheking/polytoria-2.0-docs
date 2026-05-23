@@ -58,7 +58,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Overrides font size and scales the text to fit the container.
   - Name: UseRichText
     Type: boolean
     IsAccessibleByScripts: true

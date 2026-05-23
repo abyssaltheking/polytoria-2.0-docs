@@ -135,7 +135,7 @@ Properties:
     IsReadOnly: true
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Role class of the player.
   - Name: ChatColor
     Type: Color
     IsAccessibleByScripts: true

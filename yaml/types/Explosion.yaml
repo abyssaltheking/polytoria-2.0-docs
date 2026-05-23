@@ -39,7 +39,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if welds are broken by this explosion
   - Name: AffectPredicate
     Type: () -> ()
     IsAccessibleByScripts: true

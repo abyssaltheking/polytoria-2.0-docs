@@ -329,7 +329,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector2 with all components rounded down.
   - Name: Ceil
     ReturnType: Vector2
     Parameters:
@@ -341,7 +341,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector2 with all components rounded up.
   - Name: Round
     ReturnType: Vector2
     Parameters:
@@ -353,7 +353,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector2 with all components rounded to the nearest integer.
   - Name: Abs
     ReturnType: Vector2
     Parameters:
@@ -365,7 +365,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector2 with all components as absolute values.
   - Name: Sign
     ReturnType: Vector2
     Parameters:
@@ -377,7 +377,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector2 with all components as sign values.
   - Name: Clamp
     ReturnType: Vector2
     Parameters:
@@ -397,7 +397,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Clamps a Vector2 within a range.
   - Name: ProjectOnPlane
     ReturnType: Vector2
     Parameters:
@@ -457,7 +457,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Converts components from radians to degrees.
   - Name: DegToRad
     ReturnType: Vector2
     Parameters:
@@ -469,7 +469,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Converts components from degrees to radians.
 Events: []
 IsStatic: false
 IsAbstract: false

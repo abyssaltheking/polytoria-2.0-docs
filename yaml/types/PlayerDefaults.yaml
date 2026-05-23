@@ -52,7 +52,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if the chat has colored player names.
   - Name: CanMove
     Type: boolean
     IsAccessibleByScripts: true

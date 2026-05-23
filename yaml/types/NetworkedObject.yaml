@@ -123,7 +123,7 @@ Events:
     Arguments: ""
   - Name: Destroying
     Parameters: null
-    Description: Missing Documentation
+    Description: Fires when this object is being destroyed
     Arguments: ""
 IsStatic: false
 IsAbstract: true

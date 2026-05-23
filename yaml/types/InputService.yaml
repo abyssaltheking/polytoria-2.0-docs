@@ -101,7 +101,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Vibrates the gamepad
   - Name: StopGamepadVibration
     ReturnType: nil
     Parameters: []
@@ -109,7 +109,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Stops vibrating the gamepad
   - Name: GetMouseWorldPosition
     ReturnType: Vector3
     Parameters:

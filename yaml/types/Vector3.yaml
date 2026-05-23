@@ -424,7 +424,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector3 with all components rounded down.
   - Name: Ceil
     ReturnType: Vector3
     Parameters:
@@ -436,7 +436,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector3 with all components rounded up.
   - Name: Round
     ReturnType: Vector3
     Parameters:
@@ -448,7 +448,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector3 with all components rounded to the nearest integer.
   - Name: Abs
     ReturnType: Vector3
     Parameters:
@@ -460,7 +460,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector3 with all components as absolute values.
   - Name: Sign
     ReturnType: Vector3
     Parameters:
@@ -472,7 +472,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Returns a new Vector3 with all components as sign values.
   - Name: Rotated
     ReturnType: Vector3
     Parameters:
@@ -528,7 +528,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Clamps a Vector3 within a range.
   - Name: RadToDeg
     ReturnType: Vector3
     Parameters:
@@ -540,7 +540,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Converts components from radians to degrees.
   - Name: DegToRad
     ReturnType: Vector3
     Parameters:
@@ -552,7 +552,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: true
-    Description: Missing Documentation
+    Description: Converts components from degrees to radians.
 Events: []
 IsStatic: false
 IsAbstract: false

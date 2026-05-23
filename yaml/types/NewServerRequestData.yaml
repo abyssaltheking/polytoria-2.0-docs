@@ -10,7 +10,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Target world path.
   - Name: MaxPlayers
     Type: number
     IsAccessibleByScripts: true

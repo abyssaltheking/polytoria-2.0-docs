@@ -9,7 +9,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines whether the light is enabled.
   - Name: Color
     Type: Color
     IsAccessibleByScripts: true
@@ -30,7 +30,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Sets the size of the light.
   - Name: Specular
     Type: number
     IsAccessibleByScripts: true
