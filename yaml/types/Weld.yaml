@@ -17,20 +17,6 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Second physics object in the weld.
-  - Name: C0
-    Type: Transform3D
-    IsAccessibleByScripts: true
-    IsReadOnly: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
-  - Name: C1
-    Type: Transform3D
-    IsAccessibleByScripts: true
-    IsReadOnly: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
   - Name: Enabled
     Type: boolean
     IsAccessibleByScripts: true

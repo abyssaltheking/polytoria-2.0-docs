@@ -1,5 +1,5 @@
 Name: UIShadow
-Description: Missing Documentation
+Description: UIShadow modifies the parent UI element to add shadow layers.
 Category: ui
 BaseType: Instance
 Properties:
@@ -9,7 +9,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Shadows placed behind the UI.
 Methods: []
 Events: []
 IsStatic: false

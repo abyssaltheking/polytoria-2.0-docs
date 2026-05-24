@@ -45,7 +45,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Join a player to a public server of the specified world
   - Name: JoinWorldPartyAsync
     ReturnType: nil
     Parameters:
@@ -61,7 +61,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Join a party of player to a public server of the specified world
   - Name: JoinPrivateAsync
     ReturnType: nil
     Parameters:

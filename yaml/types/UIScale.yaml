@@ -29,7 +29,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Calculates the pixel size of the UIScale.
 Events: []
 IsStatic: false
 IsAbstract: false

@@ -1,5 +1,5 @@
 Name: UIStroke
-Description: Missing Documentation
+Description: UIStroke modifies the parent UI element by changing the stroke.
 Category: ui
 BaseType: Instance
 Properties:
@@ -9,14 +9,14 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Thickness of the stroke.
   - Name: Color
     Type: Color
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Color of the stroke.
 Methods: []
 Events: []
 IsStatic: false
