@@ -48,6 +48,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The image of the back side of the skybox.
+  - Name: TextureFilter
+    Type: TextureFilter
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the texture filter mode.
 Methods: []
 Events: []
 IsStatic: false

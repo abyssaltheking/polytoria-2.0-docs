@@ -32,7 +32,7 @@ Properties:
     IsStatic: false
     Description: Determines how big the shadow is.
   - Name: BlendMode
-    Type: ShadowBlendMode
+    Type: BlendMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

@@ -1,5 +1,6 @@
 Name: UIScale
-Description: UIScale is a measurement made from an offset in pixels and a scale based off it's size.
+Description: UIScale is a measurement made from an offset in pixels and a scale
+  based off it's size.
 Category: ui
 BaseType: null
 Properties:

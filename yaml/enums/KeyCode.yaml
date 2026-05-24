@@ -215,6 +215,10 @@ Options:
     Description: ""
   - Name: GamepadAxisTriggerRight
     Description: ""
+  - Name: MouseAxisX
+    Description: ""
+  - Name: MouseAxisY
+    Description: ""
   - Name: Special
     Description: ""
   - Name: Escape

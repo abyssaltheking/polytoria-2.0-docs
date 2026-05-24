@@ -131,6 +131,10 @@ Events:
     Parameters: null
     Description: Fires when this sound has loaded
     Arguments: ""
+  - Name: Finished
+    Parameters: null
+    Description: Fires when this sound has finished playback
+    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

@@ -17,6 +17,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The icon for this tool, appears in inventory.
+  - Name: DropEquipCooldown
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the cooldown before a dropped tool can be picked up.
   - Name: Holder
     Type: NPC
     IsAccessibleByScripts: true

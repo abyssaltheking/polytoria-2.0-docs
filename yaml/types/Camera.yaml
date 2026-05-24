@@ -82,6 +82,20 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the half-size of the camera when in orthographic mode.
+  - Name: Near
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the minimum distance from the camera for objects to render.
+  - Name: Far
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the maximum distance from the camera for objects to render.
   - Name: PositionOffset
     Type: Vector3
     IsAccessibleByScripts: true

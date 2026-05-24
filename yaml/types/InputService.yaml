@@ -60,6 +60,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether the cursor is currently visible.
+  - Name: MouseDelta
+    Type: Vector2
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Change in mouse position since the last frame.
   - Name: MousePosition
     Type: Vector2
     IsAccessibleByScripts: true
@@ -196,6 +203,14 @@ Methods:
     IsSemiStatic: false
     Description: Bind new Vector2 Input Action
 Events:
+  - Name: MouseMoved
+    Parameters:
+      - Name: vector2
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: null
+    Description: Fires when the mouse is moved
+    Arguments: ""
   - Name: GameFocused
     Parameters: null
     Description: Fires when the game has been focused
