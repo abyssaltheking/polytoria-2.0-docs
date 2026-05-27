@@ -1,0 +1,16 @@
+Name: GraphicsPreset
+InternalName: GraphicsPresetEnum
+Options:
+  - Name: Low
+    Description: ""
+  - Name: Medium
+    Description: ""
+  - Name: High
+    Description: ""
+  - Name: Ultra
+    Description: ""
+  - Name: Photo
+    Description: ""
+  - Name: Custom
+    Description: ""
+Description: ""

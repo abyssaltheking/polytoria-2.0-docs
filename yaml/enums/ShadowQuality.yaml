@@ -1,0 +1,14 @@
+Name: ShadowQuality
+InternalName: ShadowQualityEnum
+Options:
+  - Name: Off
+    Description: ""
+  - Name: Low
+    Description: ""
+  - Name: Medium
+    Description: ""
+  - Name: High
+    Description: ""
+  - Name: Ultra
+    Description: ""
+Description: ""

@@ -1,0 +1,12 @@
+Name: MsaaScale
+InternalName: MsaaScaleEnum
+Options:
+  - Name: Disabled
+    Description: ""
+  - Name: X2
+    Description: ""
+  - Name: X4
+    Description: ""
+  - Name: X8
+    Description: ""
+Description: ""
