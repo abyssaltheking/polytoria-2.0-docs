@@ -39,6 +39,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether the sound should loop when it reaches the end.
+  - Name: LoopStart
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines what position the sound should loop back to.
   - Name: PlayInWorld
     Type: boolean
     IsAccessibleByScripts: true
@@ -60,6 +67,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The maximum distance at which the sound can be heard.
+  - Name: AttenuationMode
+    Type: SoundAttenuationMode
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines how a sound should get quieter when further away.
   - Name: Time
     Type: number
     IsAccessibleByScripts: true

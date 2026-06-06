@@ -95,6 +95,18 @@ Methods:
     IsStatic: false
     IsSemiStatic: false
     Description: Find first child with the specified tag
+  - Name: FindDescendant
+    ReturnType: Instance
+    Parameters:
+      - Name: path
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Finds a descendant of this instance by path.
   - Name: GetChildrenWithTag
     ReturnType: "{ Instance }"
     Parameters:

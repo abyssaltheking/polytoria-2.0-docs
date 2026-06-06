@@ -1,0 +1,22 @@
+Name: CtrlLockCursor
+InternalName: CtrlLockCursorEnum
+Options:
+  - Name: None
+    Description: ""
+  - Name: Chevron
+    Description: ""
+  - Name: Stereotypical
+    Description: ""
+  - Name: StereotypicalDot
+    Description: ""
+  - Name: Tactical
+    Description: ""
+  - Name: Dot
+    Description: ""
+  - Name: TacticalDot
+    Description: ""
+  - Name: Plus
+    Description: ""
+  - Name: X
+    Description: ""
+Description: ""
