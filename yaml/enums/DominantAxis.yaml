@@ -1,0 +1,8 @@
+Name: DominantAxis
+InternalName: DominantAxisEnum
+Options:
+  - Name: Width
+    Description: ""
+  - Name: Height
+    Description: ""
+Description: ""

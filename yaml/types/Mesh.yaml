@@ -26,6 +26,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The type of collision shape to apply to the mesh.
+  - Name: TextureFilter
+    Type: TextureFilter
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: PlayAnimationOnStart
     Type: boolean
     IsAccessibleByScripts: true

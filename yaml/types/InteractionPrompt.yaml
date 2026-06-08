@@ -51,7 +51,8 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Determines the maximum distance from the prompt to the player for the prompt to be visible.
+    Description: Determines the maximum distance from the prompt to the player for
+      the prompt to be visible.
   - Name: LineOfSightThreshold
     Type: number
     IsAccessibleByScripts: true
@@ -65,7 +66,8 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Determines the time for the interaction button to be held down for the prompt to be interacted with.
+    Description: Determines the time for the interaction button to be held down for
+      the prompt to be interacted with.
   - Name: UseParentForVisibility
     Type: boolean
     IsAccessibleByScripts: true
@@ -79,7 +81,8 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Determines if the player should be facing the interaction prompt for it to be shown.
+    Description: Determines if the player should be facing the interaction prompt
+      for it to be shown.
   - Name: HiddenFor
     Type: "{ Player }"
     IsAccessibleByScripts: true

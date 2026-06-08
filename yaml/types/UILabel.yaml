@@ -59,6 +59,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Overrides font size and scales the text to fit the container.
+  - Name: MaxAutoSize
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the maximum font size of the text when AutoSize is enabled.
   - Name: UseRichText
     Type: boolean
     IsAccessibleByScripts: true

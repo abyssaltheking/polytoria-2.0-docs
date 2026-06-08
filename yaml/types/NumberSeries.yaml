@@ -1,5 +1,6 @@
 Name: NumberSeries
-Description: Number series is a data type that represents a collection of numbers and points.
+Description: Number series is a data type that represents a collection of
+  numbers and points.
 Category: types
 BaseType: null
 Properties:
@@ -18,7 +19,7 @@ Methods:
     IsObsolete: false
     IsStatic: true
     IsSemiStatic: false
-    Description: Creates a blank number series.
+    Description: Creates a number series from a range.
   - Name: New
     ReturnType: NumberSeries
     Parameters:

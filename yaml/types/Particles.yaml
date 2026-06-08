@@ -11,6 +11,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines if particles should be emitting.
+  - Name: SpeedScale
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: Image
     Type: ImageAsset
     IsAccessibleByScripts: true
