@@ -1,6 +1,6 @@
 Name: VoiceBox
-Description: Missing Documentation
-Category: ""
+Description: VoiceBox is an object that can output speech bubbles.
+Category: misc
 BaseType: Part
 Properties: []
 Methods:
@@ -15,7 +15,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Creates a speech bubble with the given message
 Events: []
 IsStatic: false
 IsAbstract: false
