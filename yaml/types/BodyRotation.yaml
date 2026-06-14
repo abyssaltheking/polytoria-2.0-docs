@@ -1,5 +1,6 @@
 Name: BodyRotation
-Description: Missing Documentation
+Description: BodyRotation are objects that apply a force to their parent until
+  they reach the target rotation.
 Category: physics
 BaseType: Instance
 Properties:
@@ -9,21 +10,22 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the target rotation that the body applies forces to get to.
   - Name: Force
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines how much force the body applies.
   - Name: AcceptanceAngle
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines how close the body has to be to the target rotation to
+      stop applying forces to it.
 Methods:
   - Name: SetQuaternion
     ReturnType: nil
@@ -36,7 +38,7 @@ Methods:
     IsObsolete: false
     IsStatic: false
     IsSemiStatic: false
-    Description: Missing Documentation
+    Description: Sets target rotation to the given quaternion.
 Events: []
 IsStatic: false
 IsAbstract: false
