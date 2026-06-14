@@ -3,6 +3,13 @@ Description: Camera is a class that represents the local player's camera.
 Category: game
 BaseType: Dynamic
 Properties:
+  - Name: Forward
+    Type: Vector3
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: The forward direction vector of the camera.
   - Name: Mode
     Type: CameraMode
     IsAccessibleByScripts: true

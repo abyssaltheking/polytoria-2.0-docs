@@ -1,5 +1,5 @@
 Name: AspectRatioScaleType
-InternalName: AspectRatioScaleType
+InternalName: AspectRatioScaleTypeEnum
 Options:
   - Name: FitContainer
     Description: ""

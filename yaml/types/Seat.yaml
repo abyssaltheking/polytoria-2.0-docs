@@ -24,6 +24,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether NPCs are allowed to sit on this seat.
+  - Name: SitDirectionLocked
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods: []
 Events:
   - Name: Sat

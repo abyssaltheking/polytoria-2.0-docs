@@ -1,0 +1,23 @@
+Name: VoiceBox
+Description: Missing Documentation
+Category: ""
+BaseType: Part
+Properties: []
+Methods:
+  - Name: Speak
+    ReturnType: nil
+    Parameters:
+      - Name: msg
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: true
+StaticAlias: null
