@@ -117,6 +117,22 @@ Methods:
     IsStatic: false
     IsSemiStatic: false
     Description: Adds a Color value to the message with the specified key.
+  - Name: AddQuaternion
+    ReturnType: nil
+    Parameters:
+      - Name: key
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: value
+        Type: Quaternion
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Adds a Quaternion value to the message with the specified key.
   - Name: AddInstance
     ReturnType: nil
     Parameters:
@@ -233,6 +249,18 @@ Methods:
     IsStatic: false
     IsSemiStatic: false
     Description: Gets a Color value from the message with the specified key.
+  - Name: GetQuaternion
+    ReturnType: Quaternion
+    Parameters:
+      - Name: key
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Gets a Quaternion value from the message with the specified key.
   - Name: GetInstance
     ReturnType: Instance
     Parameters:

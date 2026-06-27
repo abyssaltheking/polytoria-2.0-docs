@@ -10,6 +10,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines what cursor is used when the player is ctrl-locked.
+  - Name: ChatBubbleRenderDistance
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the maximum distance at which chat bubbles are rendered.
   - Name: UseUserCard
     Type: boolean
     IsAccessibleByScripts: true

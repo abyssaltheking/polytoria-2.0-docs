@@ -66,6 +66,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the time the player has to wait before respawning.
+  - Name: KeepInventory
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the inventory is kept when respawning.
   - Name: UseHeadTurning
     Type: boolean
     IsAccessibleByScripts: true

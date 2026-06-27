@@ -11,6 +11,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The display name for this stat.
+  - Name: Visible
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the stat is visible.
 Methods:
   - Name: GetDisplayName
     ReturnType: string

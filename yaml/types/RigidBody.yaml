@@ -18,13 +18,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the angular velocity of this object.
-  - Name: UseGravity
-    Type: boolean
+  - Name: GravityScale
+    Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Determines whether the entity is affected by gravity.
+    Description: Determines how much this object is affected by gravity.
   - Name: Mass
     Type: number
     IsAccessibleByScripts: true

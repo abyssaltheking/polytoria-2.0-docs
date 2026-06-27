@@ -150,6 +150,22 @@ Methods:
     IsStatic: true
     IsSemiStatic: true
     Description: Determines whether the bounds intersect with another bounds.
+  - Name: Intersection
+    ReturnType: Bounds
+    Parameters:
+      - Name: bounds
+        Type: Bounds
+        IsOptional: false
+        DefaultValue: ""
+      - Name: other
+        Type: Bounds
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    IsSemiStatic: true
+    Description: Returns the overlap of the two bounds.
   - Name: SetMinMax
     ReturnType: Bounds
     Parameters:

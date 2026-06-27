@@ -24,6 +24,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The pitch level of the sound.
+  - Name: Pan
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: The left-right pan level of the sound.
   - Name: Autoplay
     Type: boolean
     IsAccessibleByScripts: true

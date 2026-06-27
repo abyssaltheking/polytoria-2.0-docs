@@ -102,6 +102,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the rate at which the player's stamina regenerates.
+  - Name: KeepInventory
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the inventory is kept when respawning.
   - Name: UseHeadTurning
     Type: boolean
     IsAccessibleByScripts: true
