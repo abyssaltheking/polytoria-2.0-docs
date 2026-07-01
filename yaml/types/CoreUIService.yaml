@@ -3,6 +3,20 @@ Description: CoreUI is a static class that allows for the toggling of certain co
 Category: services
 BaseType: Instance
 Properties:
+  - Name: CtrlLockCursor
+    Type: CtrlLockCursor
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines what cursor is used when the player is ctrl-locked.
+  - Name: ChatBubbleRenderDistance
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the maximum distance at which chat bubbles are rendered.
   - Name: UseUserCard
     Type: boolean
     IsAccessibleByScripts: true

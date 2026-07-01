@@ -11,6 +11,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Inserts a Default NPC
   - Name: InitializeDefaultNPC
     ReturnType: nil
@@ -22,6 +23,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Initialize default NPC with the DefaultCharacter and sounds
   - Name: DefaultCharacter
     ReturnType: PolytorianModel
@@ -29,6 +31,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Inserts a Default PolytorianModel
   - Name: ModelAsync
     ReturnType: Instance
@@ -40,6 +43,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Inserts a model with the specified ID.
   - Name: AccessoryAsync
     ReturnType: Accessory
@@ -51,6 +55,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Inserts an accessory with the specified ID.
   - Name: ToolAsync
     ReturnType: Tool
@@ -62,6 +67,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Inserts a new tool with the specified ID
 Events: []
 IsStatic: true

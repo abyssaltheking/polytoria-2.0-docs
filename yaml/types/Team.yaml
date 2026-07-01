@@ -25,6 +25,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns the display name of the team. If DisplayName is specified,
       it returns DisplayName; otherwise, it returns Name.
   - Name: GetPlayers
@@ -33,6 +34,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get all players assigned to this team.
 Events: []
 IsStatic: false

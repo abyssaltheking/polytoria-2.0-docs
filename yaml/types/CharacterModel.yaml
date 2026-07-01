@@ -4,7 +4,7 @@ Category: world
 BaseType: Dynamic
 Properties:
   - Name: CurrentState
-    Type: CharacterModelStateEnum
+    Type: CharacterModelState
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -25,16 +25,81 @@ Properties:
     IsStatic: false
     Description: The animator for this character
 Methods:
-  - Name: GetAttachment
-    ReturnType: Dynamic
+  - Name: PlayIdle
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: PlayWalk
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: PlayRun
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: PlayJump
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: PlayClimb
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: SetAnimSpeed
+    ReturnType: nil
     Parameters:
-      - Name: attachmentEnum
-        Type: CharacterAttachmentEnum
+      - Name: speed
+        Type: number
         IsOptional: false
         DefaultValue: ""
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: SetState
+    ReturnType: nil
+    Parameters:
+      - Name: newState
+        Type: CharacterModelState
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: GetAttachment
+    ReturnType: Dynamic
+    Parameters:
+      - Name: attachmentEnum
+        Type: CharacterAttachment
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
     Description: Get attachment dynamic from this character
 Events: []
 IsStatic: false

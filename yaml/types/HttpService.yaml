@@ -14,6 +14,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Send a request using the `HttpRequestData`
   - Name: GetAsync
     ReturnType: string
@@ -29,6 +30,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a GET request to the specified URL.
   - Name: PostAsync
     ReturnType: string
@@ -48,6 +50,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a POST request to the specified URL.
   - Name: PutAsync
     ReturnType: string
@@ -67,6 +70,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a PUT request to the specified URL.
   - Name: DeleteAsync
     ReturnType: string
@@ -86,6 +90,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a DELETE request to the specified url.
   - Name: PatchAsync
     ReturnType: string
@@ -105,6 +110,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a PATCH request to the specified url.
   - Name: GetBufferAsync
     ReturnType: buffer
@@ -120,6 +126,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a GET request to the specified url, and return the response
       as buffer.
   - Name: PostBufferAsync
@@ -140,6 +147,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a POST request to the specified url, and return the response
       as buffer.
   - Name: PutBufferAsync
@@ -160,6 +168,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a PUT request to the specified url, and return the response
       as buffer.
   - Name: DeleteBufferAsync
@@ -180,6 +189,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a DELETE request to the specified url, and return the
       response as buffer.
   - Name: PatchBufferAsync
@@ -200,6 +210,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sends a PATCH request to the specified url, and return the response
       as buffer.
 Events: []

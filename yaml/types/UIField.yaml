@@ -67,7 +67,7 @@ Properties:
     IsStatic: false
     Description: Determines whether the UI element is visible.
   - Name: MaskMode
-    Type: MaskModeEnum
+    Type: UIMaskMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

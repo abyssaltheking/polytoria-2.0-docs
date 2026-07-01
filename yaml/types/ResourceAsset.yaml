@@ -2,9 +2,20 @@ Name: ResourceAsset
 Description: Base class for resource based assets
 Category: assets
 BaseType: BaseAsset
-Properties: []
+Properties:
+  - Name: Loading
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Indicates whether the asset is currently loading.
 Methods: []
-Events: []
+Events:
+  - Name: Loaded
+    Parameters: null
+    Description: Fires when this asset has loaded
+    Arguments: ""
 IsStatic: false
 IsAbstract: true
 IsInstantiable: false

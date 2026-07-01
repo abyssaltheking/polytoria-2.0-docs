@@ -108,6 +108,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Returns a new Vector3 with the given Vector2 components and a z
       component of 0.
   - Name: New
@@ -120,6 +121,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Returns a new Vector3 with the given Vector2 components and a z
       component of 0.
   - Name: New
@@ -136,6 +138,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Returns a new Vector3 with the given Vector2 components and a z
       component of 0.
   - Name: New
@@ -156,6 +159,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Returns a new Vector3 with the given Vector2 components and a z
       component of 0.
   - Name: New
@@ -168,6 +172,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Returns a new Vector3 with the given Vector2 components and a z
       component of 0.
   - Name: Angle
@@ -184,6 +189,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns the angle in degrees between from and to.
   - Name: Cross
     ReturnType: Vector3
@@ -199,6 +205,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns the cross product of lhs and rhs.
   - Name: Distance
     ReturnType: number
@@ -214,6 +221,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns the distance between a and b.
   - Name: Dot
     ReturnType: number
@@ -229,6 +237,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns the dot product of lhs and rhs.
   - Name: Lerp
     ReturnType: Vector3
@@ -248,6 +257,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns a new Vector3 that is the linear interpolation between a
       and b by t.
   - Name: Max
@@ -264,6 +274,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns a vector that is made from the largest components of two vectors.
   - Name: Min
     ReturnType: Vector3
@@ -279,6 +290,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns a vector that is made from the smallest components of two vectors.
   - Name: MoveTowards
     ReturnType: Vector3
@@ -298,6 +310,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Calculate a position between the points specified by current and
       target, moving no farther than the distance specified by maxDistanceDelta.
   - Name: Normalize
@@ -310,6 +323,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns a new Vector3 that is the normalized version of the given vector.
   - Name: Project
     ReturnType: Vector3
@@ -325,7 +339,24 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns the projection of a vector onto another vector.
+  - Name: ProjectOnPlane
+    ReturnType: Vector3
+    Parameters:
+      - Name: vector
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+      - Name: planeNormal
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    IsSemiStatic: true
+    Description: Missing Documentation
   - Name: Reflect
     ReturnType: Vector3
     Parameters:
@@ -340,6 +371,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns the reflection of a vector off the plane defined by a normal.
   - Name: SignedAngle
     ReturnType: number
@@ -359,6 +391,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Returns the signed angle in degrees between from and to.
   - Name: Slerp
     ReturnType: Vector3
@@ -378,6 +411,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Spherically interpolates between two vectors.
   - Name: Floor
     ReturnType: Vector3
@@ -389,7 +423,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Returns a new Vector3 with all components rounded down.
   - Name: Ceil
     ReturnType: Vector3
     Parameters:
@@ -400,7 +435,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Returns a new Vector3 with all components rounded up.
   - Name: Round
     ReturnType: Vector3
     Parameters:
@@ -411,7 +447,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Returns a new Vector3 with all components rounded to the nearest integer.
   - Name: Abs
     ReturnType: Vector3
     Parameters:
@@ -422,7 +459,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Returns a new Vector3 with all components as absolute values.
   - Name: Sign
     ReturnType: Vector3
     Parameters:
@@ -433,7 +471,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Returns a new Vector3 with all components as sign values.
   - Name: Rotated
     ReturnType: Vector3
     Parameters:
@@ -452,6 +491,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Missing Documentation
   - Name: LimitLength
     ReturnType: Vector3
@@ -467,6 +507,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Missing Documentation
   - Name: Clamp
     ReturnType: Vector3
@@ -486,7 +527,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Clamps a Vector3 within a range.
   - Name: RadToDeg
     ReturnType: Vector3
     Parameters:
@@ -497,7 +539,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Converts components from radians to degrees.
   - Name: DegToRad
     ReturnType: Vector3
     Parameters:
@@ -508,7 +551,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    IsSemiStatic: true
+    Description: Converts components from degrees to radians.
 Events: []
 IsStatic: false
 IsAbstract: false

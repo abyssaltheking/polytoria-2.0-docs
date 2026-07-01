@@ -45,6 +45,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new Quaternion object with the specified components.
   - Name: New
     ReturnType: Quaternion
@@ -68,6 +69,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new Quaternion object with the specified components.
   - Name: Angle
     ReturnType: number
@@ -83,6 +85,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Calculates the angle between two quaternions.
   - Name: AngleAxis
     ReturnType: Quaternion
@@ -98,6 +101,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a rotation which rotates angle degrees around axis.
   - Name: Dot
     ReturnType: number
@@ -113,6 +117,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Calculates the dot product of two quaternions.
   - Name: Euler
     ReturnType: Quaternion
@@ -132,6 +137,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a quaternion from Euler angles specified by a Vector3.
   - Name: Euler
     ReturnType: Quaternion
@@ -143,6 +149,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a quaternion from Euler angles specified by a Vector3.
   - Name: ToEuler
     ReturnType: Vector3
@@ -154,6 +161,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Converts a quaternion to Euler angles represented as a Vector3.
   - Name: FromToRotation
     ReturnType: Quaternion
@@ -169,6 +177,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a rotation which rotates angle degrees around axis.
   - Name: Inverse
     ReturnType: Quaternion
@@ -180,6 +189,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Calculates the inverse of a quaternion.
   - Name: Lerp
     ReturnType: Quaternion
@@ -199,6 +209,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Linearly interpolates between two quaternions.
   - Name: LerpUnclamped
     ReturnType: Quaternion
@@ -218,6 +229,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Linearly interpolates between two quaternions without clamping the
       interpolant.
   - Name: LookRotation
@@ -230,6 +242,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a rotation with the specified forward and upwards directions.
   - Name: LookRotation
     ReturnType: Quaternion
@@ -245,6 +258,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a rotation with the specified forward and upwards directions.
   - Name: Normalize
     ReturnType: Quaternion
@@ -256,6 +270,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Normalizes the given quaternion.
   - Name: RotateTowards
     ReturnType: Quaternion
@@ -275,6 +290,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Rotates a rotation from towards to by maxDegreesDelta.
   - Name: Slerp
     ReturnType: Quaternion
@@ -294,6 +310,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Spherically interpolates between two quaternions.
   - Name: SlerpUnclamped
     ReturnType: Quaternion
@@ -313,6 +330,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: true
     Description: Spherically interpolates between two quaternions without clamping
       the interpolant.
 Events: []

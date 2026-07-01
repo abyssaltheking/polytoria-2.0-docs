@@ -10,7 +10,16 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Get all Stat objects
+    IsSemiStatic: false
+    Description: Gets all Stat objects
+  - Name: GetVisibleStats
+    ReturnType: "{ Stat }"
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Gets all visible Stat objects
 Events: []
 IsStatic: true
 IsAbstract: false

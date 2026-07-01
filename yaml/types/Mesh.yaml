@@ -20,12 +20,19 @@ Properties:
     IsStatic: false
     Description: Whether to keep the offset of the mesh or recenter it.
   - Name: CollisionType
-    Type: CollisionTypeEnum
+    Type: MeshCollisionType
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: The type of collision shape to apply to the mesh.
+  - Name: TextureFilter
+    Type: TextureFilter
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: PlayAnimationOnStart
     Type: boolean
     IsAccessibleByScripts: true
@@ -94,6 +101,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Plays the specified animation on the mesh.
   - Name: StopAnimation
     ReturnType: nil
@@ -105,6 +113,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stops the specified animation on the mesh.
   - Name: GetAnimations
     ReturnType: "{ string }"
@@ -112,6 +121,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets a list of all animations available on the mesh.
   - Name: GetAnimationInfo
     ReturnType: "{ MeshAnimationInfo }"
@@ -119,6 +129,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets the animation info.
 Events:
   - Name: Loaded

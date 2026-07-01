@@ -11,7 +11,7 @@ Properties:
     IsStatic: false
     Description: Asset ID of this image
   - Name: ImageType
-    Type: ImageTypeEnum
+    Type: ImageType
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

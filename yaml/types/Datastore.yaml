@@ -21,6 +21,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Retrieves a value from the datastore asynchronously using the
       specified key.
   - Name: SetAsync
@@ -37,6 +38,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stores a value in the datastore asynchronously using the specified key.
   - Name: RemoveAsync
     ReturnType: nil
@@ -48,6 +50,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Removes a value from the datastore asynchronously using the specified key.
   - Name: Disconnect
     ReturnType: nil
@@ -55,6 +58,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Disconnect this datastore connection, this should be called when
       you finish using the datastore.
 Events: []

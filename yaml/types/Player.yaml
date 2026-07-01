@@ -66,6 +66,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the time the player has to wait before respawning.
+  - Name: KeepInventory
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the inventory is kept when respawning.
   - Name: UseHeadTurning
     Type: boolean
     IsAccessibleByScripts: true
@@ -102,7 +109,7 @@ Properties:
     IsStatic: false
     Description: Player's assigned team
   - Name: MovementMode
-    Type: PlayerMovementModeEnum
+    Type: PlayerMovementMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -129,6 +136,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether the player is the creator of the game.
+  - Name: UserRoleClass
+    Type: string
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Role class of the player.
   - Name: ChatColor
     Type: Color
     IsAccessibleByScripts: true
@@ -158,7 +172,7 @@ Properties:
     IsStatic: false
     Description: Determines the truss the player is currently climbing.
   - Name: UserPlatform
-    Type: ClientPlatformEnum
+    Type: ClientPlatform
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
@@ -178,6 +192,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Makes the player jump.
   - Name: Kick
     ReturnType: nil
@@ -189,6 +204,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Kicks the player from the game with the specified reason.
   - Name: UnequipTool
     ReturnType: nil
@@ -196,6 +212,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Unequips the currently equipped tool of the player.
   - Name: Respawn
     ReturnType: nil
@@ -203,6 +220,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Respawns the player.
   - Name: ResetAppearance
     ReturnType: nil
@@ -210,6 +228,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Resets the player's appearance to the default.
 Events:
   - Name: Chatted

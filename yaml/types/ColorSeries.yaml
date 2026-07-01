@@ -18,6 +18,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a color series from a color range
   - Name: New
     ReturnType: ColorSeries
@@ -33,6 +34,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a color series from a color range
   - Name: Clear
     ReturnType: nil
@@ -40,6 +42,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Clear this ColorSeries
   - Name: SetColor
     ReturnType: nil
@@ -55,6 +58,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sets the color at the specified point in the color series.
   - Name: RemovePoint
     ReturnType: nil
@@ -66,6 +70,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Removes the point at the specified index from the color series.
   - Name: GetOffsets
     ReturnType: "{ number }"
@@ -73,6 +78,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get all offsets
   - Name: GetColors
     ReturnType: "{ Color }"
@@ -80,6 +86,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get all colors
   - Name: SetOffset
     ReturnType: nil
@@ -95,6 +102,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sets the offset at the specified point in the color series.
   - Name: GetColor
     ReturnType: Color
@@ -106,6 +114,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets the color at the specified point in the color series.
   - Name: GetOffset
     ReturnType: number
@@ -117,6 +126,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets the offset at the specified point in the color series.
   - Name: AddPoint
     ReturnType: number
@@ -132,6 +142,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add color point to the series with an offset.
   - Name: Lerp
     ReturnType: Color
@@ -143,6 +154,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Interpolates between colors in the series based on the parameter t.
 Events: []
 IsStatic: false

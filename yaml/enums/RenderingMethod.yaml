@@ -1,0 +1,12 @@
+Name: RenderingMethod
+InternalName: RenderingMethodEnum
+Options:
+  - Name: Standard
+    Description: ""
+  - Name: Performance
+    Description: ""
+  - Name: Compatibility
+    Description: ""
+  - Name: Auto
+    Description: ""
+Description: ""

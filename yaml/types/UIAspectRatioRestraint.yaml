@@ -1,0 +1,33 @@
+Name: UIAspectRatioRestraint
+Description: UIAspectRatioRestraint restrains the size of the parent UI element
+  to match a specific aspect ratio.
+Category: ui
+BaseType: Instance
+Properties:
+  - Name: DominantAxis
+    Type: DominantAxis
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines which axis should be prioritized when scaling the UI element.
+  - Name: ScaleType
+    Type: AspectRatioScaleType
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines how the UI element should be scaled.
+  - Name: AspectRatio
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Target aspect ratio of the UI element.
+Methods: []
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: true
+StaticAlias: null

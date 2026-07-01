@@ -1,0 +1,38 @@
+Name: UIScale
+Description: UIScale is a measurement made from an offset in pixels and a scale
+  based off it's size.
+Category: ui
+BaseType: null
+Properties:
+  - Name: Offset
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: The offset in pixels.
+  - Name: Scale
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: The scale relative to the parent size.
+Methods:
+  - Name: Compute
+    ReturnType: number
+    Parameters:
+      - Name: parentSize
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Calculates the pixel size of the UIScale.
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: false
+StaticAlias: null

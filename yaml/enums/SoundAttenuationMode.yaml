@@ -1,0 +1,12 @@
+Name: SoundAttenuationMode
+InternalName: SoundAttenuationModeEnum
+Options:
+  - Name: Disabled
+    Description: ""
+  - Name: Linear
+    Description: ""
+  - Name: Squared
+    Description: ""
+  - Name: Logarithmic
+    Description: ""
+Description: ""

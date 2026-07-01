@@ -3,6 +3,10 @@ InternalName: TextureFilterEnum
 Options:
   - Name: Nearest
     Description: ""
+  - Name: NearestNoMipmaps
+    Description: ""
   - Name: Linear
+    Description: ""
+  - Name: LinearNoMipmaps
     Description: ""
 Description: ""

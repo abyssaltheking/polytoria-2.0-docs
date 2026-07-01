@@ -21,4 +21,16 @@ Options:
     Description: ""
   - Name: Frame
     Description: ""
+  - Name: Octant
+    Description: ""
+  - Name: Torus
+    Description: ""
+  - Name: BeveledCorner
+    Description: ""
+  - Name: ConcaveCorner
+    Description: ""
+  - Name: TriangleCorner
+    Description: ""
+  - Name: TriangleConcaveCorner
+    Description: ""
 Description: ""

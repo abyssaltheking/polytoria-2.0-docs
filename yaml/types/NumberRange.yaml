@@ -33,6 +33,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
+    IsSemiStatic: false
     Description: Creates a new NumberRange object with the specified minimum and
       maximum values.
   - Name: Lerp
@@ -45,6 +46,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Linearly interpolates between the minimum and maximum values of the
       range based on the parameter t, which is typically between 0 and 1.
 Events: []

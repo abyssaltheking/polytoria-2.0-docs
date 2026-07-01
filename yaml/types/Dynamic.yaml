@@ -99,6 +99,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Orients the object to look at a target with a specified up vector.
   - Name: LookAt
     ReturnType: nil
@@ -114,6 +115,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Orients the object to look at a target with a specified up vector.
   - Name: Translate
     ReturnType: nil
@@ -125,6 +127,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Moves the transform in the direction and distance of translation.
   - Name: RotateAround
     ReturnType: nil
@@ -144,6 +147,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Rotates the object around a point by the specified Euler angles.
   - Name: Rotate
     ReturnType: nil
@@ -155,6 +159,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Rotates the object by the specified Euler angles.
   - Name: GetBounds
     ReturnType: Bounds
@@ -162,6 +167,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Gets the bounding box of the object.
 Events: []
 IsStatic: false

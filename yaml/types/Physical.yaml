@@ -17,6 +17,20 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether this object can collide with other objects.
+  - Name: CollisionLayers
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines what collision layers this object belongs to.
+  - Name: CollisionMask
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines what collision layers this object can collide with.
   - Name: Velocity
     Type: Vector3
     IsAccessibleByScripts: true
@@ -42,13 +56,71 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Sets the network authority of this object to the specified player.
+  - Name: SetCollisionLayer
+    ReturnType: nil
+    Parameters:
+      - Name: layer
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: value
+        Type: boolean
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: SetCollisionMask
+    ReturnType: nil
+    Parameters:
+      - Name: layer
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: value
+        Type: boolean
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: GetCollisionLayer
+    ReturnType: boolean
+    Parameters:
+      - Name: layer
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
+  - Name: GetCollisionMask
+    ReturnType: boolean
+    Parameters:
+      - Name: layer
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
   - Name: GetTouching
     ReturnType: "{ Physical }"
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Get all objects that's currently in contact with this object.
   - Name: MovePosition
     ReturnType: nil
@@ -60,6 +132,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Moves the part to the specified position while keeping physics in mind.
   - Name: MoveRotation
     ReturnType: nil
@@ -71,6 +144,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Rotates the part while keeping physics in mind.
   - Name: AddForce
     ReturnType: nil
@@ -80,12 +154,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add force to this physical
   - Name: AddTorque
     ReturnType: nil
@@ -95,12 +170,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add torque to this physical
   - Name: AddForceAtPosition
     ReturnType: nil
@@ -114,12 +190,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add force at position to this physical
   - Name: AddRelativeForce
     ReturnType: nil
@@ -129,12 +206,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add relative force to this physical
   - Name: AddRelativeTorque
     ReturnType: nil
@@ -144,12 +222,13 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: mode
-        Type: ForceModeEnum
+        Type: ForceMode
         IsOptional: true
         DefaultValue: Force
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Add relative torque to this physical
 Events:
   - Name: Touched

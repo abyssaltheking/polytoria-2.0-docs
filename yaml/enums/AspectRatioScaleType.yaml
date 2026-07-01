@@ -1,0 +1,10 @@
+Name: AspectRatioScaleType
+InternalName: AspectRatioScaleTypeEnum
+Options:
+  - Name: FitContainer
+    Description: ""
+  - Name: FitMaxSize
+    Description: ""
+  - Name: NoLimit
+    Description: ""
+Description: ""

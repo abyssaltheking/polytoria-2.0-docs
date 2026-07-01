@@ -3,6 +3,13 @@ Description: Light is an abstract base class for all light objects in the world.
 Category: misc
 BaseType: Dynamic
 Properties:
+  - Name: Enabled
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the light is enabled.
   - Name: Color
     Type: Color
     IsAccessibleByScripts: true
@@ -17,6 +24,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Sets the brightness of the light.
+  - Name: LightSize
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Sets the size of the light.
   - Name: Specular
     Type: number
     IsAccessibleByScripts: true

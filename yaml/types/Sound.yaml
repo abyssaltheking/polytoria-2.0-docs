@@ -24,6 +24,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The pitch level of the sound.
+  - Name: Pan
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: The left-right pan level of the sound.
   - Name: Autoplay
     Type: boolean
     IsAccessibleByScripts: true
@@ -39,6 +46,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether the sound should loop when it reaches the end.
+  - Name: LoopStart
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines what position the sound should loop back to.
   - Name: PlayInWorld
     Type: boolean
     IsAccessibleByScripts: true
@@ -60,6 +74,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The maximum distance at which the sound can be heard.
+  - Name: AttenuationMode
+    Type: SoundAttenuationMode
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines how a sound should get quieter when further away.
   - Name: Time
     Type: number
     IsAccessibleByScripts: true
@@ -95,6 +116,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Starts playing the sound.
   - Name: PlayOneShot
     ReturnType: nil
@@ -106,6 +128,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Plays the sound once at the specified volume without affecting the
       current playback.
   - Name: Pause
@@ -114,6 +137,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Pause the sound if it is currently playing.
   - Name: Stop
     ReturnType: nil
@@ -121,11 +145,16 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stops the sound if it is currently playing.
 Events:
   - Name: Loaded
     Parameters: null
     Description: Fires when this sound has loaded
+    Arguments: ""
+  - Name: Finished
+    Parameters: null
+    Description: Fires when this sound has finished playback
     Arguments: ""
 IsStatic: false
 IsAbstract: false

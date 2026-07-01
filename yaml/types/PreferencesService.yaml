@@ -4,21 +4,33 @@ Description: PreferencesService is a service that allows scripts to access some
 Category: services
 BaseType: Instance
 Properties:
-  - Name: UsePhotoMode
-    Type: boolean
+  - Name: CameraSensitivity
+    Type: number
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    IsStatic: true
-    Description: Determines whether the player has photo mode enabled.
-  - Name: UsePostProcessing
-    Type: boolean
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: UiScale
+    Type: number
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    IsStatic: true
-    Description: Determines whether the player has post-processing effects enabled.
-Methods: []
+    IsStatic: false
+    Description: Missing Documentation
+Methods:
+  - Name: Get
+    ReturnType: any
+    Parameters:
+      - Name: name
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
 Events:
   - Name: SettingChanged
     Parameters:

@@ -14,6 +14,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Retrieve `FileLinkAsset` with the specified path
   - Name: GetFileLinkByID
     ReturnType: FileLinkAsset
@@ -25,6 +26,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Retrieve `FileLinkAsset` with the specified ID
 Events: []
 IsStatic: true

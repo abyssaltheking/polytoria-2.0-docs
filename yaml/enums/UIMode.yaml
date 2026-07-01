@@ -1,0 +1,8 @@
+Name: UIMode
+InternalName: UIModeEnum
+Options:
+  - Name: Default
+    Description: ""
+  - Name: GUI3D
+    Description: ""
+Description: ""

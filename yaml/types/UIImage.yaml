@@ -10,6 +10,20 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The image asset used for the image.
+  - Name: TextureScale
+    Type: Vector2
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines UV scale of the image.
+  - Name: TextureOffset
+    Type: Vector2
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines UV offset of the image.
   - Name: Color
     Type: Color
     IsAccessibleByScripts: true
@@ -18,19 +32,33 @@ Properties:
     IsStatic: false
     Description: The color applied to the image.
   - Name: StretchMode
-    Type: ImageStretchModeEnum
+    Type: ImageStretchMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Determines how the image is stretched within the view.
   - Name: TextureFilter
-    Type: TextureFilterEnum
+    Type: TextureFilter
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Determine the image filter mode.
+  - Name: FlipHorizontal
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines if the image is flipped horizontally.
+  - Name: FlipVertical
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines if the image is flipped vertically.
   - Name: Loading
     Type: boolean
     IsAccessibleByScripts: true

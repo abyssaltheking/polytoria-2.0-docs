@@ -1,0 +1,18 @@
+Name: QuaternionValue
+Description: QuaternionValue is an object that holds a Quaternion value.
+Category: values
+BaseType: ValueBase
+Properties:
+  - Name: Value
+    Type: Quaternion
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: The value of this object.
+Methods: []
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: true
+StaticAlias: null

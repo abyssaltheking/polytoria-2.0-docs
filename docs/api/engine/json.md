@@ -19,6 +19,10 @@ Converts a Luau table into a JSON string.
 
 Parses a JSON string back into a Luau table.
 
-### null():string { method }
+### null():JSONNull { method }
 
 Creates a JSON null value for use in serialization.
+
+### isNull(value;any):boolean { method }
+
+Returns if the given value is a JSON null value.

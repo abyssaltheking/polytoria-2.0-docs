@@ -49,6 +49,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Calls a function in the script with the given arguments.
   - Name: CallAsync
     ReturnType: nil
@@ -64,6 +65,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Calls a function in the script asynchronously with the given arguments.
   - Name: LinkWithScriptFile
     ReturnType: nil
@@ -75,6 +77,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Link script with the target file path
 Events: []
 IsStatic: false

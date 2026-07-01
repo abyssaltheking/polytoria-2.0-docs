@@ -11,6 +11,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Clear the shared table
   - Name: Remove
     ReturnType: nil
@@ -22,6 +23,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Remove the key from shared table
   - Name: ClearPrefix
     ReturnType: nil
@@ -33,6 +35,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Clear all keys with the prefix
   - Name: ClearSuffix
     ReturnType: nil
@@ -44,6 +47,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Clear all keys with the suffix
 Events: []
 IsStatic: false

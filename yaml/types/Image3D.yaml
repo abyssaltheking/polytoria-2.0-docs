@@ -52,8 +52,15 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether or not the Image3D should always face the camera.
+  - Name: DoubleSided
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the image renders on both sides.
   - Name: TextureFilter
-    Type: TextureFilterEnum
+    Type: TextureFilter
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

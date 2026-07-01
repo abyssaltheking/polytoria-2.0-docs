@@ -4,14 +4,14 @@ Category: world
 BaseType: Entity
 Properties:
   - Name: Shape
-    Type: ShapeEnum
+    Type: PartShape
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Determines the shape of the part.
   - Name: Material
-    Type: PartMaterialEnum
+    Type: PartMaterial
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false

@@ -59,6 +59,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Returns whether or not the instance is the specified class, this
       also checks for inheritance.
   - Name: Clone
@@ -71,6 +72,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Clones the instance
   - Name: Destroy
     ReturnType: nil
@@ -82,6 +84,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Destroys the instance (same as Delete method)
   - Name: Delete
     ReturnType: nil
@@ -93,6 +96,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Deletes the instance (same as Destroy method)
 Events:
   - Name: PropertyChanged
@@ -116,6 +120,10 @@ Events:
   - Name: TreeExited
     Parameters: null
     Description: Fires when object exit the tree (via reparent or delete)
+    Arguments: ""
+  - Name: Destroying
+    Parameters: null
+    Description: Fires when this object is being destroyed
     Arguments: ""
 IsStatic: false
 IsAbstract: true

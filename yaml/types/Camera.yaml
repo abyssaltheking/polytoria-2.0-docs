@@ -3,8 +3,15 @@ Description: Camera is a class that represents the local player's camera.
 Category: game
 BaseType: Dynamic
 Properties:
+  - Name: Forward
+    Type: Vector3
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: The forward direction vector of the camera.
   - Name: Mode
-    Type: CameraModeEnum
+    Type: CameraMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -82,6 +89,20 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the half-size of the camera when in orthographic mode.
+  - Name: Near
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the minimum distance from the camera for objects to render.
+  - Name: Far
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the maximum distance from the camera for objects to render.
   - Name: PositionOffset
     Type: Vector3
     IsAccessibleByScripts: true
@@ -177,6 +198,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Check if position is in the camera's view.
   - Name: IsPositionBehind
     ReturnType: boolean
@@ -188,6 +210,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Check if position is behind the camera's view.
   - Name: ViewportPointToRay
     ReturnType: RayResult
@@ -207,6 +230,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Cast a ray from the camera at the specified ViewportPoint (Vector2
       with components with values in range of 0 - 1 describing how far a point
       is to the right and to the top of the screen) into the game world
@@ -228,6 +252,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Cast a ray from the camera at screen point into the game world
   - Name: ViewportToScreenPoint
     ReturnType: Vector2
@@ -239,6 +264,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Transforms `pos` from viewport space into screen space.
   - Name: ViewportToWorldPoint
     ReturnType: Vector3
@@ -250,6 +276,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Transforms `pos` from viewport space into world space.
   - Name: WorldToViewportPoint
     ReturnType: Vector2
@@ -261,6 +288,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Transforms `pos` from world space into viewport space.
   - Name: WorldToScreenPoint
     ReturnType: Vector2
@@ -272,6 +300,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Transforms `pos` from world space into screen space.
   - Name: ScreenToViewportPoint
     ReturnType: Vector2
@@ -283,6 +312,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Transforms `pos` from screen space into viewport space.
   - Name: ScreenToWorldPoint
     ReturnType: Vector3
@@ -294,6 +324,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Transforms `pos` from screen space into world space.
 Events:
   - Name: FirstPersonEntered

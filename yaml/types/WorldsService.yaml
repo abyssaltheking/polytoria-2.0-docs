@@ -9,13 +9,14 @@ Methods:
   - Name: NewServerAsync
     ReturnType: string
     Parameters:
-      - Name: placePath
+      - Name: worldPath
         Type: string
         IsOptional: false
         DefaultValue: ""
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Request a new server with data
   - Name: NewServerAsync
     ReturnType: string
@@ -27,8 +28,9 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Request a new server with data
-  - Name: JoinPlaceAsync
+  - Name: JoinWorldAsync
     ReturnType: nil
     Parameters:
       - Name: plr
@@ -42,8 +44,9 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Join a player to a public server of the specified world
-  - Name: JoinPlacePartyAsync
+  - Name: JoinWorldPartyAsync
     ReturnType: nil
     Parameters:
       - Name: plrs
@@ -57,6 +60,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Join a party of player to a public server of the specified world
   - Name: JoinPrivateAsync
     ReturnType: nil
@@ -72,6 +76,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Join a player to a private server of the specified world
   - Name: JoinPrivatePartyAsync
     ReturnType: nil
@@ -87,6 +92,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Join a party of player to a private server of the specified world
 Events: []
 IsStatic: true

@@ -1,0 +1,137 @@
+Name: InteractionPrompt
+Description: InteractionPrompt is a object that allows players to interact with objects.
+Category: misc
+BaseType: Physical
+Properties:
+  - Name: UIMode
+    Type: UIMode
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: Enabled
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the prompt is enabled.
+  - Name: HideByDefault
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: Title
+    Type: string
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Title text
+  - Name: Subtitle
+    Type: string
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Subtitle text
+  - Name: Scale
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the size of the prompt.
+  - Name: MaxDistance
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the maximum distance from the prompt to the player for
+      the prompt to be visible.
+  - Name: LineOfSightThreshold
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: ActivationTime
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the time for the interaction button to be held down for
+      the prompt to be interacted with.
+  - Name: UseParentForVisibility
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines if parent needs to be hovered over for the prompt to be visible.
+  - Name: RequireFacing
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines if the player should be facing the interaction prompt
+      for it to be shown.
+  - Name: HiddenFor
+    Type: "{ Player }"
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Players that this interaction prompt is hidden for.
+  - Name: Progress
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Progress of the prompt interaction, between 0 and 1.
+Methods:
+  - Name: HideFor
+    ReturnType: nil
+    Parameters:
+      - Name: plr
+        Type: Player
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Hides the prompt for a player.
+  - Name: ShowFor
+    ReturnType: nil
+    Parameters:
+      - Name: plr
+        Type: Player
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Unhides the prompt for a player.
+Events:
+  - Name: Interacted
+    Parameters:
+      - Name: player
+        Type: Player
+        IsOptional: false
+        DefaultValue: null
+    Description: Fires when prompt is interacted with
+    Arguments: ""
+IsStatic: false
+IsAbstract: false
+IsInstantiable: true
+StaticAlias: null

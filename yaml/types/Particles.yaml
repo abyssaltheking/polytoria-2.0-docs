@@ -11,6 +11,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines if particles should be emitting.
+  - Name: SpeedScale
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: Image
     Type: ImageAsset
     IsAccessibleByScripts: true
@@ -19,7 +26,7 @@ Properties:
     IsStatic: false
     Description: The image used for the particles.
   - Name: TextureFilter
-    Type: TextureFilterEnum
+    Type: TextureFilter
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -46,6 +53,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the number of particles emitted.
+  - Name: Explosiveness
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: Gravity
     Type: Vector3
     IsAccessibleByScripts: true
@@ -74,6 +88,146 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the starting rotation.
+  - Name: AngularVelocity
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: AngularVelocityOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: LinearAcceleration
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: LinearAccelerationOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: RadialAcceleration
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: RadialAccelerationOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TangentialAcceleration
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TangentialAccelerationOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: OrbitalVelocity
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: OrbitalVelocityOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: Damping
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: DampingOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: ScaleOverVelocity
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: ScaleOverVelocityCurve
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TurbulenceEnabled
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TurbulenceInfluence
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TurbulenceOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TurbulenceNoiseScale
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TurbulenceNoiseStrength
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: TurbulenceNoiseSpeed
+    Type: Vector3
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: Spread
     Type: number
     IsAccessibleByScripts: true
@@ -95,6 +249,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determine the initial scale range
+  - Name: ScaleOverLifetime
+    Type: NumberSeries
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: HueVariation
     Type: NumberRange
     IsAccessibleByScripts: true
@@ -103,7 +264,7 @@ Properties:
     IsStatic: false
     Description: Determine the hue variation
   - Name: BlendMode
-    Type: BlendModeEnum
+    Type: BlendMode
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -117,7 +278,7 @@ Properties:
     IsStatic: false
     Description: Determines whether the particles are shaded.
   - Name: EmissionShape
-    Type: ParticleEmissionShapeEnum
+    Type: ParticleEmissionShape
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
@@ -131,19 +292,40 @@ Properties:
     IsStatic: false
     Description: Determines the emission shape's scale
   - Name: SimulationSpace
-    Type: ParticleSimulationSpaceEnum
+    Type: ParticleSimulationSpace
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Whether the particles are simulated in world or local space.
   - Name: Orientation
-    Type: ParticleOrientationEnum
+    Type: ParticleOrientation
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Determines the orientation mode of this particle.
+  - Name: IsPlaying
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: IsPaused
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: IsStopped
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods:
   - Name: Play
     ReturnType: nil
@@ -151,14 +333,32 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Starts playing the particle system.
+  - Name: Pause
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
   - Name: Stop
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Stops playing the particle system.
+  - Name: Clear
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
   - Name: Emit
     ReturnType: nil
     Parameters:
@@ -169,6 +369,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Emits a specified number of particles immediately.
 Events: []
 IsStatic: false

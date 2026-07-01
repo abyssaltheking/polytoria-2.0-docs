@@ -1,0 +1,40 @@
+Name: Weld
+Description: Welds represent joins between two physics objects.
+Category: physics
+BaseType: Instance
+Properties:
+  - Name: Part0
+    Type: Instance
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: First physics object in the weld.
+  - Name: Part1
+    Type: Instance
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Second physics object in the weld.
+  - Name: Enabled
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the weld is enabled.
+Methods:
+  - Name: Break
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Fires when the weld is broken.
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: true
+StaticAlias: null

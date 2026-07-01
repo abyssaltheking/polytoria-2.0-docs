@@ -53,7 +53,19 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The total number of instances currently loaded.
-Methods: []
+Methods:
+  - Name: GetNetworkedObject
+    ReturnType: NetworkedObject
+    Parameters:
+      - Name: networkID
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: true
+    IsObsolete: false
+    IsStatic: false
+    IsSemiStatic: false
+    Description: Missing Documentation
 Events:
   - Name: Rendered
     Parameters:

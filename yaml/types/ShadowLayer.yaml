@@ -1,0 +1,54 @@
+Name: ShadowLayer
+Description: ShadowLayer represents a shadow placed behind a UI element.
+Category: misc
+BaseType: null
+Properties:
+  - Name: Color
+    Type: Color
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: The color of the shadow.
+  - Name: Offset
+    Type: Vector2
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: The offset of the shadow.
+  - Name: Radius
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines how much the shadow is blurred.
+  - Name: Spread
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines how big the shadow is.
+  - Name: BlendMode
+    Type: BlendMode
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines how the shadow is blended.
+Methods:
+  - Name: New
+    ReturnType: ShadowLayer
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    IsSemiStatic: false
+    Description: Creates a new ShadowLayer object.
+Events: []
+IsStatic: false
+IsAbstract: false
+IsInstantiable: false
+StaticAlias: null

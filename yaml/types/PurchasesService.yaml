@@ -18,6 +18,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Prompt the purchase prompt to player
   - Name: OwnsItemAsync
     ReturnType: boolean
@@ -33,6 +34,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    IsSemiStatic: false
     Description: Checks asynchronously if the specified player owns the asset with
       the given asset ID.
 Events: []

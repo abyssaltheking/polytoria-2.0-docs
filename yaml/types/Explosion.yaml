@@ -33,6 +33,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Damage that is applied to the player
+  - Name: AffectWelds
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines if welds are broken by this explosion
   - Name: AffectPredicate
     Type: () -> ()
     IsAccessibleByScripts: true
